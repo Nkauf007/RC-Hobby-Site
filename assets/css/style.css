@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #040b14;
 }
 
 .mobile-nav-active {
@@ -232,13 +232,15 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 
+
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
   color: #040b14;
-}
+  }
 
 #hero p {
   color: #fff;
@@ -253,6 +255,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+
+
 
 @media (min-width: 1024px) {
   #hero {
@@ -1088,3 +1092,15 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+
+#hero .down{animation: bounce 1s; 
+  animation-direction: alternate; 
+  animation-iteration-count: 6;
+padding-bottom: 300px;
+animation-name: bounce;}
+
+  @keyframes bounce{ 
+    from { transform: translate3d(0, 0, 0);} 
+    to { transform: translate3d(0, 200px, 0);}
